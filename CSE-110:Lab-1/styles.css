@@ -1,6 +1,5 @@
 html {
     max-width: 100%;
-    scroll-padding-top: 100px;
 }
 
 .navbar {
@@ -47,7 +46,7 @@ li a:hover {
     padding: 0px 20px;
     background-color: rgb(245, 240, 230);
     display: inline-block;
-    scroll-margin-top: 128.5px;
+    scroll-margin-top: 146px;
     font-size: 28px
 }
 
@@ -57,7 +56,7 @@ li a:hover {
     background-image: url(bg-orbs-1.jpg);
     color: white;
     display: inline-block;
-    scroll-margin-top: 128.5px;
+    scroll-margin-top: 146px;
     font-size: 28px
 }
 
@@ -66,7 +65,7 @@ li a:hover {
     padding: 0px 20px;
     background-color: rgb(245, 240, 230);
     display: inline-block;
-    scroll-margin-top: 128.5px;
+    scroll-margin-top: 146px;
     font-size: 28px
 }
 
