@@ -1,0 +1,122 @@
+html {
+    max-width: 100%;
+    scroll-padding-top: 100px;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding: 0px 20px;
+}
+
+.navbar li {
+    display: inline;
+    float: left;
+}
+
+.navbar li a {
+    padding: 10px 10px 10px;
+    display: block;
+    font-size: 28px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: white;
+    background-color: #182b49;
+  }
+
+.navbar img {
+    max-width: 400px;
+    margin: 10px 20px 0px;
+}
+
+#Section1 {
+    max-width: 100%;
+    margin: 0px;
+    padding: 0px 20px;
+    background-color: rgb(245, 240, 230);
+    display: inline-block;
+    scroll-margin-top: 128.5px;
+    font-size: 28px
+}
+
+#Section2 {
+    max-width: 100%;
+    padding: 0px 20px;
+    background-image: url(bg-orbs-1.jpg);
+    color: white;
+    display: inline-block;
+    scroll-margin-top: 128.5px;
+    font-size: 28px
+}
+
+#Section3 {
+    max-width: 100%;
+    padding: 0px 20px;
+    background-color: rgb(245, 240, 230);
+    display: inline-block;
+    scroll-margin-top: 128.5px;
+    font-size: 28px
+}
+
+#Section1 #Section2 img {
+    max-width: 100%;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    position: center;
+  }
+
+.one {
+    grid-column: 1;
+    position: center;
+    background-color: #182b49;
+    color: white;
+    max-height: 500px;
+    overflow: scroll;
+}
+
+.two {
+    grid-column: 2;
+    position: center;
+    background-color: #182b49;
+    color: white;
+    max-height: 500px;
+    overflow: scroll;
+}
+
+.three {
+    grid-column: 3;
+    position: center;
+    background-color: #182b49;
+    color: white;
+    max-height: 500px;
+    overflow: scroll;
+}
+
+.four {
+    grid-column: 4;
+    position: center;
+    background-color: #182b49;
+    color: white;
+    max-height: 500px;
+    overflow: scroll;
+}
