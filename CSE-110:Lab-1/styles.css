@@ -119,3 +119,76 @@ h2 {
     max-height: 500px;
     overflow: scroll;
 }
+
+@media screen and (max-width: 800px) {
+    .navbar {
+        position: sticky;
+        top: 0;
+        overflow: auto;
+        background-color: white;
+        max-width: 100%;
+    }
+
+    .navbar ul li a {
+      display: none;
+    }
+
+    .navbar img {
+        max-width: 75%;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    .wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+        position: center;
+      }
+
+    .one {
+        grid-column: 1;
+        grid-row: 1;
+        position: center;
+        background-color: #182b49;
+        color: white;
+        max-height: 500px;
+        overflow: scroll;
+    }
+    
+    .two {
+        grid-column: 2;
+        grid-row: 1;
+        position: center;
+        background-color: #182b49;
+        color: white;
+        max-height: 500px;
+        overflow: scroll;
+    }
+
+    .three {
+        grid-column: 1;
+        grid-row: 2;
+        position: center;
+        background-color: #182b49;
+        color: white;
+        max-height: 500px;
+        overflow: scroll;
+    }
+    
+    .four {
+        grid-column: 2;
+        grid-row: 2;
+        position: center;
+        background-color: #182b49;
+        color: white;
+        max-height: 500px;
+        overflow: scroll;
+    }
+  }
