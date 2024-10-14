@@ -10,6 +10,7 @@ function App() {
     dummyNotesList.map(note => ({ ...note, fav: false}))
   );
 
+  // Exercise 4.3
   const initialNote = {
     id: -1,
     fav: false,
@@ -18,6 +19,7 @@ function App() {
     label: Label.other,
   };
 
+  // Exercise 4.3
  const [createNote, setCreateNote] = useState(initialNote);
  const [selectedNote, setSelectedNote] = useState<Note>(initialNote);
  
@@ -30,12 +32,15 @@ function App() {
     setCreateNote(initialNote);
   };
 
+  // Exercise 4.2
   const [favs, setFavs] = useState<number[]>([]);
 
+  // Exercise 4.3
   const handleDelete = (noteID: number) => {
     setNotes(notes.filter((note => note.id !== noteID)));
   }
 
+  // Exercise 4.2
   const [hearts, setHearts] = useState(
     notes.map(note => '♡')
   );
@@ -131,6 +136,7 @@ function App() {
  );
 }
 
+// Exercise 4.2
 function ToggleTheme() {
   const [currentTheme, setCurrentTheme] = useState(themes.light);
  
